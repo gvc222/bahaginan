@@ -6,13 +6,13 @@ const Navbar = () => {
         <nav>
             <ul>
                 <li><Link to="/">Homepage</Link></li>
-                <li><Link to="/">Projects</Link></li>
-                <li><Link to="/">Impact</Link></li>
-                <li><Link to="/">Get Involved</Link></li>
-                <li><Link to="/">News and Events</Link></li>
-                <li><Link to="/">Resources</Link></li>
-                <li><Link to="/">About Us</Link></li>
-                <li><Link to="/">Contact Us</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/impact">Impact</Link></li>
+                <li><Link to="/get-involved">Get Involved</Link></li>
+                <li><Link to="/news-and-events">News and Events</Link></li>
+                <li><Link to="/resources">Resources</Link></li>
+                <li><Link to="/about-us">About Us</Link></li>
+                <li><Link to="/contact-us">Contact Us</Link></li>
             </ul>
         </nav>
     )

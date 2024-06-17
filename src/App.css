@@ -69,4 +69,13 @@ footer {
   align-items: center;
   text-align: center;
   background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  position: fixed;
+  bottom: 0;
+}
+
+footer > a {
+  text-decoration: none;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  color: white;
 }

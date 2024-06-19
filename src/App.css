@@ -55,6 +55,11 @@ h1 {
   font-size: 10rem;
 }
 
+h2, h3, h4, h5 {
+  font-family: 'Montserrat';
+  font-weight: 200;
+}
+
 /* .bahaginan-header {
   background-image: url("./images/mountain-view.jpg");
   height: 50rem;
@@ -78,4 +83,33 @@ footer > a {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    position: absolute;
+    top: 5rem;
+    left: 0;
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+  }
+
+  .nav-menu li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
 }
